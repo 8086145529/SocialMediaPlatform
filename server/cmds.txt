@@ -1,0 +1,32 @@
+commands used in this MERN projects
+1. mkdir server : the overall command is telling the system to create a directory named "server" in the current location i.e in the MERN TASK folder
+
+2. npm i -g nodemon : when you run npm i -g nodemon, you are instructing npm to download and install the nodemon package globally on your system, making it accessible from any directory in your command-line interface or terminal. After installation, you can use the nodemon command to run Node.js applications with automatic restarts on file changes, which can be useful during development
+
+3. npm i express body-parser bcrypt cors dotenv gridfs-stream multer multer-gridfs-storage helmet morgan jsonwebtoken mongoose
+
+   1. express: A web application framework for Node.js. It simplifies the process of building robust web servers and APIs.
+
+   2. body-parser: Middleware for handling JSON, Raw, Text, and URL-encoded form data.
+
+   3. bcrypt: A library for hashing passwords. It's commonly used for securely storing user passwords.
+
+   4. cors: Middleware for enabling Cross-Origin Resource Sharing. It allows or restricts web applications running at one origin to make requests to a different origin.
+
+   5. dotenv: Loads environment variables from a .env file into process.env, making it easy to configure your application.
+
+   6. gridfs-stream: A library for working with MongoDB's GridFS, which is a specification for storing large files in MongoDB.
+
+   7. multer: Middleware for handling multipart/form-data, primarily used for file uploads.
+
+   8. multer-gridfs-storage: A Multer storage engine for MongoDB GridFS.
+
+   9. helmet: Middleware that helps secure your Express apps by setting various HTTP headers.
+
+   10. morgan: HTTP request logger middleware for Node.js. It logs information about incoming requests.logging means recording
+
+   11. jsonwebtoken: A library for generating and verifying JSON Web Tokens (JWT). JWTs are often used for authentication and information exchange between parties.
+
+   12. mongoose: An Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a higher-level, schema-based abstraction for interacting with MongoDB.
+
+4. npm init -y : This command will automatically generate a package.json file with default values, accepting all the default options without requiring manual input.
